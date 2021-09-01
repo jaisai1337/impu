@@ -1,5 +1,4 @@
-name: amazonRDP
-
+name: Jai1
 on: workflow_dispatch
 
 jobs:
