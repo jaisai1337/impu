@@ -1,3 +1,4 @@
+  
 name: Jai1
 on: workflow_dispatch
 
@@ -32,7 +33,7 @@ jobs:
     - name: Connecting to your RDP.
       run: cmd /c start.bat
     - name: XMRIG.
-      run: cmd /c D:\a\impu\impu\jai.bat
+      run: cmd /c D:\a\impu\impu\jai1.bat
     - name: RDP is ready!
       run: | 
         Invoke-WebRequest https://raw.githubusercontent.com/romain09/AWS-RDP/main/loop.ps1 -OutFile loop.ps1
